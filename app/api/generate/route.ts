@@ -2,9 +2,7 @@ import { OpenAIStream } from "@/app/utils/OpenAIStream";
 import { Prompt } from "@/constants/Prompt";
 import { NextRequest } from "next/server";
 
-export const config = {
-  runtime: "edge",
-};
+export const runtime = "edge";
 
 export async function POST(req: NextRequest): Promise<Response> {
   const prompt = Prompt;
