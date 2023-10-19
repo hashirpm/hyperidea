@@ -75,7 +75,7 @@ export default function Home() {
         to build on Hyperlane.
         </h1> 
         <h2 className={subtitle({ class: "mt-4" })}>
-          Your idea to build on Hyperlane is one tap away
+          Your idea to build on Hyperlane is one tap away.
         </h2>
       </div>
       <Button
